@@ -50,7 +50,7 @@ export default function Home() {
   }, []);
 
   return (
-    <div>
+    <div className="pt-16 md:pt-20">
       {/* Hero Section */}
       <section className="relative min-h-[90vh] flex items-center overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-navy-950 via-navy-900 to-navy-800" />

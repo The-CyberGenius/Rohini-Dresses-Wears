@@ -34,7 +34,7 @@ export default function RootLayout({
       <body className="font-body antialiased selection:bg-primary-200 selection:text-primary-900">
         <Navbar />
         {/* pb-16 added to account for the bottom nav on mobile screens */}
-        <main className="min-h-screen pb-16 md:pb-0 pt-16 md:pt-20">{children}</main>
+        <main className="min-h-screen pb-16 md:pb-0">{children}</main>
         <Footer />
         <BottomNav />
       </body>

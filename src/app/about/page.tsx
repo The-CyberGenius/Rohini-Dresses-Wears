@@ -1,6 +1,6 @@
 export default function AboutPage() {
   return (
-    <div className="pb-16">
+    <div className="pt-20 md:pt-24 pb-16">
       {/* Hero */}
       <section className="bg-gradient-to-br from-navy-900 to-navy-950 py-16 md:py-24 relative overflow-hidden">
         <div className="absolute inset-0 opacity-10">
