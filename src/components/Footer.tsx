@@ -45,7 +45,7 @@ export default function Footer() {
             </div>
             <p className="text-navy-300 text-sm leading-relaxed mb-4">
               Your trusted wholesale partner for quality clothing, school uniforms, hotel linens,
-              and fabrics. Serving businesses across Delhi NCR since 2010.
+              and fabrics. Serving businesses across India since 2015.
             </p>
             <p className="text-navy-400 text-sm">
               <strong className="text-primary-400">Owner:</strong> Siddharth
@@ -109,7 +109,7 @@ export default function Footer() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                 </svg>
                 <p className="text-navy-300 text-sm">
-                  Rohini Sector 7, New Delhi - 110085
+                  Rohini , Ratangarh,Rajasthan,India - 331022
                 </p>
               </div>
               <div className="flex items-center gap-3">
