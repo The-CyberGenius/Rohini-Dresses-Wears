@@ -442,54 +442,6 @@
     "createdAt": "2024-04-01T00:00:00Z"
   },
   {
-    "id": "prod-9",
-    "name": "Cotton Printed Saree",
-    "nameHi": "कॉटन प्रिंटेड साड़ी",
-    "description": "Comfortable cotton printed sarees for daily wear. Beautiful prints and vibrant colors.",
-    "categoryId": "cat-4",
-    "categoryName": "Sarees",
-    "images": [
-      "https://images.unsplash.com/photo-1583391733956-6c78276477e2?w=600"
-    ],
-    "price": 450,
-    "bulkPricing": [
-      {
-        "minQty": 20,
-        "maxQty": 50,
-        "pricePerUnit": 390
-      },
-      {
-        "minQty": 51,
-        "maxQty": 200,
-        "pricePerUnit": 340
-      },
-      {
-        "minQty": 201,
-        "maxQty": 9999,
-        "pricePerUnit": 300
-      }
-    ],
-    "fabric": "Cotton",
-    "colors": [
-      "Multi-color"
-    ],
-    "sizes": [
-      "Free Size"
-    ],
-    "minOrderQty": 20,
-    "stock": 1000,
-    "unit": "pieces",
-    "isFeatured": false,
-    "isActive": true,
-    "tags": [
-      "saree",
-      "cotton",
-      "printed",
-      "daily"
-    ],
-    "createdAt": "2024-04-02T00:00:00Z"
-  },
-  {
     "id": "prod-10",
     "name": "Pure Cotton Fabric - Per Meter",
     "nameHi": "प्योर कॉटन कपड़ा - प्रति मीटर",
@@ -812,7 +764,7 @@
     "categoryId": "cat-8",
     "categoryName": "School Ties & Belts",
     "images": [
-      "https://images.unsplash.com/photo-1620800630650-6a2c3a5efb26?w=600"
+      "https://images.unsplash.com/photo-1603636489686-2ab6dc08fa8d?q=80&w=1291&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     ],
     "price": 100,
     "bulkPricing": [
