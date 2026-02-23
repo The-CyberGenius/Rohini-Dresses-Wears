@@ -40,25 +40,40 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-3 group">
-            <div className="relative">
-              <div className="w-12 h-12 bg-navy-950 rounded-xl flex items-center justify-center shadow-lg group-hover:shadow-primary-500/30 group-hover:scale-105 transition-all duration-300 overflow-hidden border border-white/10">
-                {/* More Elegant & Sophisticated R Monogram */}
-                <svg viewBox="0 0 100 100" className="w-9 h-9 text-gold-500 fill-current">
-                  <path d="M25 20 C25 20 65 18 75 35 C85 52 70 65 55 65 L45 65 L75 85 L60 85 L35 65 L35 85 L25 85 L25 20 Z M35 30 L35 55 L55 55 C65 55 70 48 70 42 C70 36 65 30 55 30 L35 30 Z" />
-                  <path d="M28 23 L28 82 M22 20 L72 20" stroke="currentColor" strokeWidth="1" fill="none" opacity="0.3" />
-                </svg>
-                <div className="absolute inset-0 bg-gradient-to-tr from-primary-600/10 to-transparent" />
-              </div>
-              <div className="absolute -top-1 -right-1 w-3 h-3 bg-primary-500 rounded-full border-2 border-white shadow-sm" />
+            <div className="relative flex items-center justify-center">
+              {/* Luxury Fashion Signature 'R' */}
+              <svg viewBox="0 0 100 100" className="w-14 h-14 filter drop-shadow-sm group-hover:scale-110 transition-transform duration-500">
+                <defs>
+                  <linearGradient id="goldGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" stopColor="#D4AF37" />
+                    <stop offset="50%" stopColor="#FFD700" />
+                    <stop offset="100%" stopColor="#B8860B" />
+                  </linearGradient>
+                </defs>
+                <path
+                  d="M30 25 C30 25 75 20 75 42 C75 64 45 62 45 62 L70 85 M40 25 L40 85"
+                  stroke="url(#goldGradient)"
+                  strokeWidth="5"
+                  fill="none"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+                <circle cx="40" cy="25" r="2.5" fill="#D4AF37" />
+                <path d="M25 85 L55 85" stroke="#D4AF37" strokeWidth="1.5" strokeLinecap="round" opacity="0.4" />
+              </svg>
             </div>
 
-            <div className="flex flex-col text-left">
-              <span className="font-heading font-black text-navy-950 text-base md:text-xl tracking-tighter leading-none italic">
+            <div className="flex flex-col">
+              <span className="font-heading font-normal text-navy-950 text-2xl md:text-3xl tracking-[0.1em] leading-none ml-1" style={{ fontFamily: 'serif' }}>
                 ROHINI
               </span>
-              <span className="text-[10px] md:text-xs text-primary-600 font-bold tracking-[0.25em] uppercase mt-0.5">
-                DRESSES & WEARS
-              </span>
+              <div className="flex items-center gap-2 mt-1">
+                <div className="h-[1px] w-3 bg-primary-500/40" />
+                <span className="text-[9px] md:text-[10px] text-primary-600 font-bold tracking-[0.35em] uppercase">
+                  Dresses & Wears
+                </span>
+                <div className="h-[1px] w-3 bg-primary-500/40" />
+              </div>
             </div>
           </Link>
 
