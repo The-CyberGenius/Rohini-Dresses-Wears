@@ -11,7 +11,7 @@ export default function AboutPage() {
             About <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-gold-400">Rohini Dresses</span>
           </h1>
           <p className="text-navy-200 text-lg max-w-2xl mx-auto">
-            Your trusted wholesale partner since 2010. Providing premium quality clothing and fabrics at unbeatable wholesale prices.
+            Your trusted wholesale partner since 2015. Providing premium quality clothing and fabrics at unbeatable wholesale prices.
           </p>
         </div>
       </section>
@@ -24,12 +24,12 @@ export default function AboutPage() {
               <h2 className="section-title mb-6">Our <span className="text-primary-500">Story</span></h2>
               <div className="space-y-4 text-navy-600 leading-relaxed">
                 <p>
-                  <strong className="text-navy-900">Rohini Dresses & Wears</strong> was founded in 2010 by <strong className="text-primary-600">Siddharth</strong> with a vision to provide
-                  the best quality wholesale clothing at affordable prices to businesses across Delhi NCR.
+                  <strong className="text-navy-900">Rohini Dresses & Wears</strong> was founded in 2015 by <strong className="text-primary-600">Siddharth</strong> with a vision to provide
+                  the best quality wholesale clothing at affordable prices to businesses across India.
                 </p>
                 <p>
-                  Starting from a small shop in Rohini Sector 7, we have grown into one of the most trusted wholesale
-                  clothing suppliers in North Delhi. Today, we serve over 5,000 clients including schools, hotels,
+                  Starting from a small shop in Rohini, we have grown into one of the most trusted wholesale
+                  clothing suppliers in India. Today, we serve over 10,000 clients including schools, hotels,
                   retailers, and institutional buyers.
                 </p>
                 <p>
@@ -65,9 +65,9 @@ export default function AboutPage() {
             <h2 className="text-3xl font-heading font-bold text-navy-900 mb-2">Siddharth</h2>
             <p className="text-primary-500 font-medium mb-4">Founder & Owner</p>
             <p className="text-navy-600 leading-relaxed max-w-xl mx-auto">
-              With over 14 years of experience in the wholesale clothing industry, Siddharth has built
+              With over 10 years of experience in the wholesale clothing industry, Siddharth has built
               Rohini Dresses & Wears into a name synonymous with quality and trust. His hands-on approach
-              and commitment to customer satisfaction has earned the business a loyal clientele across Delhi NCR.
+              and commitment to customer satisfaction has earned the business a loyal clientele across India.
             </p>
             <div className="flex justify-center gap-4 mt-6">
               <a href="tel:+919602911100" className="btn-primary">📞 Call Siddharth</a>

@@ -65,7 +65,7 @@ export default function Home() {
             <div className="animate-fade-in">
               <div className="inline-flex items-center gap-2 bg-primary-500/20 text-primary-300 px-4 py-2 rounded-full text-sm font-medium mb-6">
                 <span className="w-2 h-2 bg-primary-400 rounded-full animate-pulse" />
-                Wholesale Supplier Since 2010
+                Wholesale Supplier Since 2015
               </div>
               <h1 className="text-4xl md:text-6xl lg:text-7xl font-heading font-bold text-white leading-tight">
                 Rohini{" "}
@@ -95,7 +95,7 @@ export default function Home() {
                 </a>
               </div>
               <div className="flex items-center gap-6 mt-10 text-navy-300">
-                {["Bulk Orders", "Best Prices", "Pan Delhi Delivery"].map((item) => (
+                {["Bulk Orders", "Best Prices", "All india Delivery"].map((item) => (
                   <div key={item} className="flex items-center gap-2">
                     <svg className="w-5 h-5 text-green-400" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
@@ -112,7 +112,7 @@ export default function Home() {
                 <div className="relative grid grid-cols-2 gap-4">
                   <div className="space-y-4">
                     <div className="rounded-2xl overflow-hidden shadow-2xl h-48">
-                      <Image src="https://images.unsplash.com/photo-1604671801908-6f0c6a092c05?w=400&h=300&fit=crop" alt="School Uniforms" width={400} height={300} className="w-full h-full object-cover hover:scale-110 transition-transform duration-500" />
+                      <Image src="https://plus.unsplash.com/premium_photo-1707816501019-8f24a3c9bac4?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="School Uniforms" width={400} height={300} className="w-full h-full object-cover hover:scale-110 transition-transform duration-500" />
                     </div>
                     <div className="rounded-2xl overflow-hidden shadow-2xl h-64">
                       <Image src="https://images.unsplash.com/photo-1610030469983-98e550d6193c?w=400&h=400&fit=crop" alt="Sarees" width={400} height={400} className="w-full h-full object-cover hover:scale-110 transition-transform duration-500" />

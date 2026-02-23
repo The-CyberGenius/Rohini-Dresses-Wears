@@ -16,14 +16,14 @@ export default function Footer() {
           {/* Brand */}
           <div className="lg:col-span-1">
             <div className="flex items-center gap-3 mb-6">
-              <div className="w-12 h-12 bg-white/10 rounded-xl flex items-center justify-center border border-white/20">
-                <svg viewBox="0 0 100 100" className="w-8 h-8 text-primary-400 fill-current">
-                  <path d="M30 20 H55 C70 20 75 30 75 40 C75 50 70 60 55 60 H45 L75 85 V85 H60 L35 60 H30 V85 H20 V20 H30 Z M30 30 V50 H55 C60 50 65 45 65 40 C65 35 60 30 55 30 H30 Z" />
+              <div className="w-12 h-12 bg-white/5 rounded-xl flex items-center justify-center border border-white/10 group-hover:border-primary-500/30 transition-colors">
+                <svg viewBox="0 0 100 100" className="w-9 h-9 text-primary-400 fill-current">
+                  <path d="M25 20 C25 20 65 18 75 35 C85 52 70 65 55 65 L45 65 L75 85 L60 85 L35 65 L35 85 L25 85 L25 20 Z M35 30 L35 55 L55 55 C65 55 70 48 70 42 C70 36 65 30 55 30 L35 30 Z" />
                 </svg>
               </div>
               <div>
-                <h3 className="font-heading font-black text-xl tracking-tight">ROHINI</h3>
-                <p className="text-primary-400 text-[10px] font-bold tracking-[0.2em] uppercase">DRESSES & WEARS</p>
+                <h3 className="font-heading font-black text-xl tracking-tighter italic">ROHINI</h3>
+                <p className="text-primary-400 text-[10px] font-bold tracking-[0.25em] uppercase">DRESSES & WEARS</p>
               </div>
             </div>
             <p className="text-navy-300 text-sm leading-relaxed mb-4">
