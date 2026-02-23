@@ -157,9 +157,9 @@ export default function Home() {
               {[...Array(6)].map((_, i) => (<div key={i} className="h-48 rounded-2xl shimmer" />))}
             </div>
           ) : (
-            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 md:gap-6">
+            <div className="flex flex-wrap justify-center gap-4 md:gap-6">
               {categories.map((cat) => (
-                <Link key={cat.id} href={`/products?category=${cat.id}`} className="group card card-hover p-4 text-center">
+                <Link key={cat.id} href={`/products?category=${cat.id}`} className="group card card-hover p-4 text-center w-[calc(50%-0.5rem)] md:w-48 lg:w-56">
                   <div className="text-4xl mb-3 group-hover:scale-125 transition-transform duration-300">{cat.icon}</div>
                   <h3 className="font-semibold text-navy-900 text-sm md:text-base">{cat.name}</h3>
                   <p className="text-xs text-primary-500 mt-1">{cat.nameHi}</p>
