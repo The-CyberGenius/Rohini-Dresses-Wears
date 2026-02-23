@@ -98,6 +98,29 @@ export default function AboutPage() {
               </div>
             ))}
           </div>
+          {/* Offer section finishes at line 101 */}
+        </section>
+
+        {/* Location Map */}
+        <section className="py-16 border-t border-navy-100">
+          <h2 className="section-title text-center mb-8">Our <span className="text-primary-500">Location</span></h2>
+          <div className="card overflow-hidden h-[450px]">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4281.35770207966!2d74.61648407619813!3d28.07238797597522!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3914b8ca49330f07%3A0x569956f25a9bd14!2sROHINI%20EMPORIUM%20(ROHINI%20DRESSES)!5e1!3m2!1sen!2sin!4v1771865098496!5m2!1sen!2sin"
+              width="100%"
+              height="100%"
+              style={{ border: 0 }}
+              allowFullScreen={true}
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              title="Rohini Emporium Location"
+            ></iframe>
+          </div>
+          <div className="mt-6 text-center">
+            <p className="text-navy-600">
+              <strong className="text-navy-900">Address:</strong> Rohini Emporium, Sector 7, Rohini, New Delhi, Delhi 110085
+            </p>
+          </div>
         </section>
       </div>
     </div>
