@@ -1,0 +1,26 @@
+[
+  {
+    "id": "inq-1",
+    "name": "Rajesh Kumar",
+    "phone": "9876543210",
+    "email": "rajesh@example.com",
+    "productId": "prod-1",
+    "productName": "White School Shirt - Boys",
+    "message": "We need 500 white school shirts for our school. Please share best price.",
+    "quantity": 500,
+    "status": "new",
+    "createdAt": "2024-06-15T10:00:00Z"
+  },
+  {
+    "id": "inq-2",
+    "name": "Hotel Grand Palace",
+    "phone": "9876543211",
+    "email": "purchase@grandpalace.com",
+    "productId": "prod-4",
+    "productName": "Premium White Hotel Bedsheet",
+    "message": "Require 200 sets of white hotel bedsheets. King size. Need sample first.",
+    "quantity": 200,
+    "status": "contacted",
+    "createdAt": "2024-06-14T14:30:00Z"
+  }
+]

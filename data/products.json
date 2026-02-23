@@ -1,0 +1,912 @@
+[
+  {
+    "id": "prod-1",
+    "name": "White School Shirt - Boys",
+    "nameHi": "सफेद स्कूल शर्ट - लड़कों के लिए",
+    "description": "Premium white cotton school shirts for boys. Wrinkle-free fabric, comfortable fit. Available in all sizes from 22 to 44.",
+    "categoryId": "cat-1",
+    "categoryName": "School Uniforms",
+    "images": [
+      "https://images.unsplash.com/photo-1598032895397-b9472444bf93?w=600",
+      "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=600"
+    ],
+    "price": 250,
+    "bulkPricing": [
+      {
+        "minQty": 50,
+        "maxQty": 100,
+        "pricePerUnit": 220
+      },
+      {
+        "minQty": 101,
+        "maxQty": 500,
+        "pricePerUnit": 195
+      },
+      {
+        "minQty": 501,
+        "maxQty": 9999,
+        "pricePerUnit": 175
+      }
+    ],
+    "fabric": "Cotton",
+    "colors": [
+      "White"
+    ],
+    "sizes": [
+      "22",
+      "24",
+      "26",
+      "28",
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40",
+      "42",
+      "44"
+    ],
+    "minOrderQty": 50,
+    "stock": 5000,
+    "unit": "pieces",
+    "isFeatured": true,
+    "isActive": true,
+    "tags": [
+      "school",
+      "uniform",
+      "boys",
+      "shirt",
+      "white"
+    ],
+    "createdAt": "2024-01-10T00:00:00Z"
+  },
+  {
+    "id": "prod-2",
+    "name": "Navy Blue School Trousers",
+    "nameHi": "नेवी ब्लू स्कूल ट्राउज़र",
+    "description": "Durable navy blue school trousers with elastic waist option. Perfect for daily school wear.",
+    "categoryId": "cat-1",
+    "categoryName": "School Uniforms",
+    "images": [
+      "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?w=600"
+    ],
+    "price": 350,
+    "bulkPricing": [
+      {
+        "minQty": 50,
+        "maxQty": 100,
+        "pricePerUnit": 310
+      },
+      {
+        "minQty": 101,
+        "maxQty": 500,
+        "pricePerUnit": 280
+      },
+      {
+        "minQty": 501,
+        "maxQty": 9999,
+        "pricePerUnit": 250
+      }
+    ],
+    "fabric": "Polyester Blend",
+    "colors": [
+      "Navy Blue",
+      "Grey",
+      "Black"
+    ],
+    "sizes": [
+      "22",
+      "24",
+      "26",
+      "28",
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40"
+    ],
+    "minOrderQty": 50,
+    "stock": 3000,
+    "unit": "pieces",
+    "isFeatured": true,
+    "isActive": true,
+    "tags": [
+      "school",
+      "uniform",
+      "trousers",
+      "navy"
+    ],
+    "createdAt": "2024-01-11T00:00:00Z"
+  },
+  {
+    "id": "prod-3",
+    "name": "Girls School Pinafore",
+    "nameHi": "लड़कियों का स्कूल पिनाफोर",
+    "description": "Comfortable and stylish school pinafore for girls. Available in checked and plain patterns.",
+    "categoryId": "cat-1",
+    "categoryName": "School Uniforms",
+    "images": [
+      "https://images.unsplash.com/photo-1604671801908-6f0c6a092c05?w=600"
+    ],
+    "price": 400,
+    "bulkPricing": [
+      {
+        "minQty": 50,
+        "maxQty": 100,
+        "pricePerUnit": 360
+      },
+      {
+        "minQty": 101,
+        "maxQty": 500,
+        "pricePerUnit": 320
+      },
+      {
+        "minQty": 501,
+        "maxQty": 9999,
+        "pricePerUnit": 290
+      }
+    ],
+    "fabric": "Cotton Blend",
+    "colors": [
+      "Navy Blue",
+      "Maroon",
+      "Green"
+    ],
+    "sizes": [
+      "22",
+      "24",
+      "26",
+      "28",
+      "30",
+      "32",
+      "34"
+    ],
+    "minOrderQty": 50,
+    "stock": 2000,
+    "unit": "pieces",
+    "isFeatured": false,
+    "isActive": true,
+    "tags": [
+      "school",
+      "uniform",
+      "girls",
+      "pinafore"
+    ],
+    "createdAt": "2024-01-12T00:00:00Z"
+  },
+  {
+    "id": "prod-4",
+    "name": "Premium White Hotel Bedsheet",
+    "nameHi": "प्रीमियम सफेद होटल बेडशीट",
+    "description": "300 thread count pure white hotel bedsheets. Soft, durable, and easy to wash. Perfect for hotels and guest houses.",
+    "categoryId": "cat-2",
+    "categoryName": "Hotel Bedsheets",
+    "images": [
+      "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=600",
+      "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=600"
+    ],
+    "price": 800,
+    "bulkPricing": [
+      {
+        "minQty": 25,
+        "maxQty": 50,
+        "pricePerUnit": 720
+      },
+      {
+        "minQty": 51,
+        "maxQty": 200,
+        "pricePerUnit": 650
+      },
+      {
+        "minQty": 201,
+        "maxQty": 9999,
+        "pricePerUnit": 580
+      }
+    ],
+    "fabric": "Cotton Satin",
+    "colors": [
+      "White",
+      "Off-White",
+      "Cream"
+    ],
+    "sizes": [
+      "Single",
+      "Double",
+      "King",
+      "Super King"
+    ],
+    "minOrderQty": 25,
+    "stock": 1500,
+    "unit": "sets",
+    "isFeatured": true,
+    "isActive": true,
+    "tags": [
+      "hotel",
+      "bedsheet",
+      "white",
+      "premium"
+    ],
+    "createdAt": "2024-02-01T00:00:00Z"
+  },
+  {
+    "id": "prod-5",
+    "name": "Printed Hotel Bedsheet Set",
+    "nameHi": "प्रिंटेड होटल बेडशीट सेट",
+    "description": "Beautiful printed bedsheet sets with 2 pillow covers. Multiple designs available for guest rooms.",
+    "categoryId": "cat-2",
+    "categoryName": "Hotel Bedsheets",
+    "images": [
+      "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=600"
+    ],
+    "price": 650,
+    "bulkPricing": [
+      {
+        "minQty": 25,
+        "maxQty": 50,
+        "pricePerUnit": 580
+      },
+      {
+        "minQty": 51,
+        "maxQty": 200,
+        "pricePerUnit": 520
+      },
+      {
+        "minQty": 201,
+        "maxQty": 9999,
+        "pricePerUnit": 460
+      }
+    ],
+    "fabric": "Cotton",
+    "colors": [
+      "Multi-color",
+      "Blue",
+      "Green",
+      "Pink"
+    ],
+    "sizes": [
+      "Double",
+      "King"
+    ],
+    "minOrderQty": 25,
+    "stock": 800,
+    "unit": "sets",
+    "isFeatured": false,
+    "isActive": true,
+    "tags": [
+      "hotel",
+      "bedsheet",
+      "printed",
+      "set"
+    ],
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "id": "prod-6",
+    "name": "Blackout Curtains - Heavy",
+    "nameHi": "ब्लैकआउट पर्दे - हेवी",
+    "description": "Premium blackout curtains for hotels and homes. Blocks 99% light. Available in solid colors.",
+    "categoryId": "cat-3",
+    "categoryName": "Curtains",
+    "images": [
+      "https://images.unsplash.com/photo-1513694203232-719a280e022f?w=600"
+    ],
+    "price": 1200,
+    "bulkPricing": [
+      {
+        "minQty": 20,
+        "maxQty": 50,
+        "pricePerUnit": 1050
+      },
+      {
+        "minQty": 51,
+        "maxQty": 200,
+        "pricePerUnit": 950
+      },
+      {
+        "minQty": 201,
+        "maxQty": 9999,
+        "pricePerUnit": 850
+      }
+    ],
+    "fabric": "Polyester Blackout",
+    "colors": [
+      "Maroon",
+      "Navy Blue",
+      "Beige",
+      "Grey",
+      "Brown"
+    ],
+    "sizes": [
+      "5ft",
+      "7ft",
+      "9ft"
+    ],
+    "minOrderQty": 20,
+    "stock": 600,
+    "unit": "pairs",
+    "isFeatured": true,
+    "isActive": true,
+    "tags": [
+      "curtains",
+      "blackout",
+      "hotel",
+      "heavy"
+    ],
+    "createdAt": "2024-03-01T00:00:00Z"
+  },
+  {
+    "id": "prod-7",
+    "name": "Sheer Curtains - Light",
+    "nameHi": "शीयर पर्दे - लाइट",
+    "description": "Elegant sheer curtains for a soft, airy look. Perfect for living rooms and offices.",
+    "categoryId": "cat-3",
+    "categoryName": "Curtains",
+    "images": [
+      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600"
+    ],
+    "price": 500,
+    "bulkPricing": [
+      {
+        "minQty": 20,
+        "maxQty": 50,
+        "pricePerUnit": 440
+      },
+      {
+        "minQty": 51,
+        "maxQty": 200,
+        "pricePerUnit": 390
+      },
+      {
+        "minQty": 201,
+        "maxQty": 9999,
+        "pricePerUnit": 350
+      }
+    ],
+    "fabric": "Sheer Polyester",
+    "colors": [
+      "White",
+      "Cream",
+      "Light Pink",
+      "Light Blue"
+    ],
+    "sizes": [
+      "5ft",
+      "7ft",
+      "9ft"
+    ],
+    "minOrderQty": 20,
+    "stock": 400,
+    "unit": "pairs",
+    "isFeatured": false,
+    "isActive": true,
+    "tags": [
+      "curtains",
+      "sheer",
+      "light",
+      "elegant"
+    ],
+    "createdAt": "2024-03-02T00:00:00Z"
+  },
+  {
+    "id": "prod-8",
+    "name": "Banarasi Silk Saree",
+    "nameHi": "बनारसी सिल्क साड़ी",
+    "description": "Authentic Banarasi silk sarees with rich zari work. Perfect for weddings and special occasions. Wholesale for retailers.",
+    "categoryId": "cat-4",
+    "categoryName": "Sarees",
+    "images": [
+      "https://images.unsplash.com/photo-1610030469983-98e550d6193c?w=600"
+    ],
+    "price": 2500,
+    "bulkPricing": [
+      {
+        "minQty": 10,
+        "maxQty": 25,
+        "pricePerUnit": 2200
+      },
+      {
+        "minQty": 26,
+        "maxQty": 100,
+        "pricePerUnit": 1950
+      },
+      {
+        "minQty": 101,
+        "maxQty": 9999,
+        "pricePerUnit": 1750
+      }
+    ],
+    "fabric": "Silk",
+    "colors": [
+      "Red",
+      "Maroon",
+      "Green",
+      "Blue",
+      "Pink",
+      "Purple"
+    ],
+    "sizes": [
+      "Free Size"
+    ],
+    "minOrderQty": 10,
+    "stock": 300,
+    "unit": "pieces",
+    "isFeatured": true,
+    "isActive": true,
+    "tags": [
+      "saree",
+      "silk",
+      "banarasi",
+      "wedding"
+    ],
+    "createdAt": "2024-04-01T00:00:00Z"
+  },
+  {
+    "id": "prod-9",
+    "name": "Cotton Printed Saree",
+    "nameHi": "कॉटन प्रिंटेड साड़ी",
+    "description": "Comfortable cotton printed sarees for daily wear. Beautiful prints and vibrant colors.",
+    "categoryId": "cat-4",
+    "categoryName": "Sarees",
+    "images": [
+      "https://images.unsplash.com/photo-1583391733956-6c78276477e2?w=600"
+    ],
+    "price": 450,
+    "bulkPricing": [
+      {
+        "minQty": 20,
+        "maxQty": 50,
+        "pricePerUnit": 390
+      },
+      {
+        "minQty": 51,
+        "maxQty": 200,
+        "pricePerUnit": 340
+      },
+      {
+        "minQty": 201,
+        "maxQty": 9999,
+        "pricePerUnit": 300
+      }
+    ],
+    "fabric": "Cotton",
+    "colors": [
+      "Multi-color"
+    ],
+    "sizes": [
+      "Free Size"
+    ],
+    "minOrderQty": 20,
+    "stock": 1000,
+    "unit": "pieces",
+    "isFeatured": false,
+    "isActive": true,
+    "tags": [
+      "saree",
+      "cotton",
+      "printed",
+      "daily"
+    ],
+    "createdAt": "2024-04-02T00:00:00Z"
+  },
+  {
+    "id": "prod-10",
+    "name": "Pure Cotton Fabric - Per Meter",
+    "nameHi": "प्योर कॉटन कपड़ा - प्रति मीटर",
+    "description": "Premium quality pure cotton fabric available in solid colors. Ideal for shirts, kurtas, and dresses.",
+    "categoryId": "cat-5",
+    "categoryName": "Dress Materials & Fabrics",
+    "images": [
+      "https://images.unsplash.com/photo-1558171813-4c088753af8f?w=600"
+    ],
+    "price": 120,
+    "bulkPricing": [
+      {
+        "minQty": 100,
+        "maxQty": 500,
+        "pricePerUnit": 100
+      },
+      {
+        "minQty": 501,
+        "maxQty": 2000,
+        "pricePerUnit": 85
+      },
+      {
+        "minQty": 2001,
+        "maxQty": 9999,
+        "pricePerUnit": 72
+      }
+    ],
+    "fabric": "Pure Cotton",
+    "colors": [
+      "White",
+      "Blue",
+      "Pink",
+      "Yellow",
+      "Green",
+      "Black",
+      "Grey"
+    ],
+    "sizes": [
+      "Per Meter"
+    ],
+    "minOrderQty": 100,
+    "stock": 10000,
+    "unit": "meters",
+    "isFeatured": true,
+    "isActive": true,
+    "tags": [
+      "fabric",
+      "cotton",
+      "material",
+      "wholesale"
+    ],
+    "createdAt": "2024-05-01T00:00:00Z"
+  },
+  {
+    "id": "prod-11",
+    "name": "Georgette Fabric - Per Meter",
+    "nameHi": "जॉर्जेट कपड़ा - प्रति मीटर",
+    "description": "Lightweight georgette fabric for sarees, dupattas, and dresses. Beautiful drape and feel.",
+    "categoryId": "cat-5",
+    "categoryName": "Dress Materials & Fabrics",
+    "images": [
+      "https://images.unsplash.com/photo-1528459801416-a9e53bbf4e17?w=600"
+    ],
+    "price": 180,
+    "bulkPricing": [
+      {
+        "minQty": 100,
+        "maxQty": 500,
+        "pricePerUnit": 155
+      },
+      {
+        "minQty": 501,
+        "maxQty": 2000,
+        "pricePerUnit": 135
+      },
+      {
+        "minQty": 2001,
+        "maxQty": 9999,
+        "pricePerUnit": 115
+      }
+    ],
+    "fabric": "Georgette",
+    "colors": [
+      "Multiple Colors Available"
+    ],
+    "sizes": [
+      "Per Meter"
+    ],
+    "minOrderQty": 100,
+    "stock": 8000,
+    "unit": "meters",
+    "isFeatured": false,
+    "isActive": true,
+    "tags": [
+      "fabric",
+      "georgette",
+      "material"
+    ],
+    "createdAt": "2024-05-02T00:00:00Z"
+  },
+  {
+    "id": "prod-12",
+    "name": "Anarkali Kurti Set",
+    "nameHi": "अनारकली कुर्ती सेट",
+    "description": "Beautiful Anarkali kurti with dupatta. Perfect for festive occasions. Available in multiple designs.",
+    "categoryId": "cat-6",
+    "categoryName": "Ready-made Dresses",
+    "images": [
+      "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=600"
+    ],
+    "price": 850,
+    "bulkPricing": [
+      {
+        "minQty": 20,
+        "maxQty": 50,
+        "pricePerUnit": 750
+      },
+      {
+        "minQty": 51,
+        "maxQty": 200,
+        "pricePerUnit": 660
+      },
+      {
+        "minQty": 201,
+        "maxQty": 9999,
+        "pricePerUnit": 580
+      }
+    ],
+    "fabric": "Rayon",
+    "colors": [
+      "Red",
+      "Blue",
+      "Green",
+      "Yellow",
+      "Pink"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "minOrderQty": 3,
+    "stock": 500,
+    "unit": "pieces",
+    "isFeatured": true,
+    "isActive": true,
+    "tags": [
+      "dress",
+      "kurti",
+      "anarkali",
+      "festive"
+    ],
+    "createdAt": "2024-06-01T00:00:00Z"
+  },
+  {
+    "id": "prod-13",
+    "name": "Kids Party Wear Frock",
+    "nameHi": "किड्स पार्टी वियर फ्रॉक",
+    "description": "Adorable party wear frocks for girls. Beautiful designs with net and sequin work.",
+    "categoryId": "cat-6",
+    "categoryName": "Ready-made Dresses",
+    "images": [
+      "https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?w=600"
+    ],
+    "price": 550,
+    "bulkPricing": [
+      {
+        "minQty": 25,
+        "maxQty": 50,
+        "pricePerUnit": 480
+      },
+      {
+        "minQty": 51,
+        "maxQty": 200,
+        "pricePerUnit": 420
+      },
+      {
+        "minQty": 201,
+        "maxQty": 9999,
+        "pricePerUnit": 370
+      }
+    ],
+    "fabric": "Net & Satin",
+    "colors": [
+      "Pink",
+      "Red",
+      "White",
+      "Blue",
+      "Purple"
+    ],
+    "sizes": [
+      "2-3Y",
+      "4-5Y",
+      "6-7Y",
+      "8-9Y",
+      "10-11Y"
+    ],
+    "minOrderQty": 25,
+    "stock": 350,
+    "unit": "pieces",
+    "isFeatured": false,
+    "isActive": true,
+    "tags": [
+      "kids",
+      "party",
+      "frock",
+      "girls"
+    ],
+    "createdAt": "2024-06-02T00:00:00Z"
+  },
+  {
+    "id": "prod-14",
+    "name": "Customised Hotel Staff T-Shirts",
+    "nameHi": "कस्टमाइज होटल स्टाफ टी-शर्ट",
+    "description": "High quality customized t-shirts for hotel staff and other occasions. Logo printing and embroidery available.",
+    "categoryId": "cat-7",
+    "categoryName": "Customised T-shirts & Shirts",
+    "images": [
+      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600"
+    ],
+    "price": 300,
+    "bulkPricing": [
+      {
+        "minQty": 50,
+        "maxQty": 100,
+        "pricePerUnit": 280
+      },
+      {
+        "minQty": 101,
+        "maxQty": 500,
+        "pricePerUnit": 250
+      },
+      {
+        "minQty": 501,
+        "maxQty": 9999,
+        "pricePerUnit": 220
+      }
+    ],
+    "fabric": "Cotton Blend",
+    "colors": [
+      "White",
+      "Black",
+      "Navy Blue",
+      "Red",
+      "Green",
+      "Yellow"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "minOrderQty": 50,
+    "stock": 2000,
+    "unit": "pieces",
+    "isFeatured": true,
+    "isActive": true,
+    "tags": [
+      "tshirt",
+      "custom",
+      "staff",
+      "uniform"
+    ],
+    "createdAt": "2024-05-01T00:00:00Z"
+  },
+  {
+    "id": "prod-15",
+    "name": "School Uniform Ties",
+    "nameHi": "स्कूल यूनिफॉर्म टाई",
+    "description": "Premium ties for school uniforms with custom school logo printing and specific stripe patterns.",
+    "categoryId": "cat-8",
+    "categoryName": "School Ties & Belts",
+    "images": [
+      "https://images.unsplash.com/photo-1589756823695-278bc923f962?w=600"
+    ],
+    "price": 80,
+    "bulkPricing": [
+      {
+        "minQty": 100,
+        "maxQty": 500,
+        "pricePerUnit": 70
+      },
+      {
+        "minQty": 501,
+        "maxQty": 9999,
+        "pricePerUnit": 60
+      }
+    ],
+    "fabric": "Polyester",
+    "colors": [
+      "Striped",
+      "Custom Colors"
+    ],
+    "sizes": [
+      "Regular",
+      "Small"
+    ],
+    "minOrderQty": 100,
+    "stock": 5000,
+    "unit": "pieces",
+    "isFeatured": false,
+    "isActive": true,
+    "tags": [
+      "tie",
+      "school",
+      "uniform",
+      "accessories"
+    ],
+    "createdAt": "2024-05-01T00:00:00Z"
+  },
+  {
+    "id": "prod-16",
+    "name": "School Dress Belts with Name Printing",
+    "nameHi": "स्कूल ड्रेस बेल्ट नाम प्रिंटिंग के साथ",
+    "description": "Durable school dress belts with customized school name printing on the buckle or strap.",
+    "categoryId": "cat-8",
+    "categoryName": "School Ties & Belts",
+    "images": [
+      "https://images.unsplash.com/photo-1620800630650-6a2c3a5efb26?w=600"
+    ],
+    "price": 100,
+    "bulkPricing": [
+      {
+        "minQty": 100,
+        "maxQty": 500,
+        "pricePerUnit": 85
+      },
+      {
+        "minQty": 501,
+        "maxQty": 9999,
+        "pricePerUnit": 75
+      }
+    ],
+    "fabric": "Nylon / Leatherette",
+    "colors": [
+      "Black",
+      "Brown",
+      "Navy"
+    ],
+    "sizes": [
+      "Adjustable"
+    ],
+    "minOrderQty": 100,
+    "stock": 4000,
+    "unit": "pieces",
+    "isFeatured": true,
+    "isActive": true,
+    "tags": [
+      "belt",
+      "school",
+      "uniform",
+      "custom"
+    ],
+    "createdAt": "2024-05-01T00:00:00Z"
+  },
+  {
+    "id": "prod-17",
+    "name": "Customised Uniform Pants",
+    "nameHi": "कस्टमाइज यूनिफॉर्म पैंट",
+    "description": "Premium uniform pants for hotel staff, schools, and corporate use. Available in all sizes with custom fitting options.",
+    "categoryId": "cat-9",
+    "categoryName": "Uniform Pants",
+    "images": [
+      "https://images.unsplash.com/photo-1542272604-780c82f9b8c5?w=600"
+    ],
+    "price": 450,
+    "bulkPricing": [
+      {
+        "minQty": 50,
+        "maxQty": 100,
+        "pricePerUnit": 410
+      },
+      {
+        "minQty": 101,
+        "maxQty": 500,
+        "pricePerUnit": 370
+      },
+      {
+        "minQty": 501,
+        "maxQty": 9999,
+        "pricePerUnit": 340
+      }
+    ],
+    "fabric": "Polyester Viscose Blend",
+    "colors": [
+      "Black",
+      "Navy Blue",
+      "Grey",
+      "Khaki",
+      "Brown"
+    ],
+    "sizes": [
+      "28",
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40",
+      "42",
+      "44"
+    ],
+    "minOrderQty": 50,
+    "stock": 3000,
+    "unit": "pieces",
+    "isFeatured": true,
+    "isActive": true,
+    "tags": [
+      "pants",
+      "trousers",
+      "uniform",
+      "custom"
+    ],
+    "createdAt": "2024-05-01T00:00:00Z"
+  }
+]

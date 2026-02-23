@@ -1,0 +1,67 @@
+.
+ |-postcss.config.mjs
+ |-next.config.mjs
+ |-node_modules
+ |-.next
+ |-next-env.d.ts
+ |-README.md
+ |-tailwind.config.ts
+ |-.gitignore
+ |-package-lock.json
+ |-package.json
+ |-tsconfig.json
+ |-data
+ | |-categories.json
+ | |-inquiries.json
+ | |-products.json
+ |-project_analysis
+ | |-directory_tree.txt
+ |-.eslintrc.json
+ |-src
+ | |-types
+ | | |-index.ts
+ | |-app
+ | | |-contact
+ | | | |-page.tsx
+ | | |-favicon.ico
+ | | |-products
+ | | | |-[id]
+ | | | | |-page.tsx
+ | | | |-page.tsx
+ | | |-admin
+ | | | |-products
+ | | | | |-page.tsx
+ | | | |-inquiries
+ | | | | |-page.tsx
+ | | | |-layout.tsx
+ | | | |-page.tsx
+ | | | |-categories
+ | | | | |-page.tsx
+ | | |-about
+ | | | |-page.tsx
+ | | |-layout.tsx
+ | | |-api
+ | | | |-products
+ | | | | |-route.ts
+ | | | |-inquiries
+ | | | | |-route.ts
+ | | | |-admin
+ | | | | |-login
+ | | | | | |-route.ts
+ | | | |-categories
+ | | | | |-route.ts
+ | | |-fonts
+ | | | |-GeistMonoVF.woff
+ | | | |-GeistVF.woff
+ | | |-page.tsx
+ | | |-categories
+ | | | |-page.tsx
+ | | |-globals.css
+ | |-components
+ | | |-Navbar.tsx
+ | | |-BottomNav.tsx
+ | | |-Footer.tsx
+ | |-lib
+ | | |-dataStore.ts
+ | |-data
+ | | |-seed.ts

@@ -1,0 +1,101 @@
+[
+  {
+    "id": "cat-1",
+    "name": "School Uniforms",
+    "nameHi": "स्कूल यूनिफॉर्म",
+    "description": "Premium quality school uniforms for bulk orders. Available in all sizes with customization options for schools across Rohini and Delhi.",
+    "image": "https://images.unsplash.com/photo-1604671801908-6f0c6a092c05?w=600",
+    "icon": "🎓",
+    "slug": "school-uniforms",
+    "isActive": true,
+    "createdAt": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": "cat-2",
+    "name": "Hotel Bedsheets",
+    "nameHi": "होटल बेडशीट",
+    "description": "High quality hotel-grade bedsheets in bulk. White, colored, and printed options available for hotels and guest houses.",
+    "image": "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=600",
+    "icon": "🛏️",
+    "slug": "hotel-bedsheets",
+    "isActive": true,
+    "createdAt": "2024-01-02T00:00:00Z"
+  },
+  {
+    "id": "cat-3",
+    "name": "Curtains",
+    "nameHi": "पर्दे",
+    "description": "Beautiful curtains for homes, offices, and hotels. Available in various fabrics, colors, and designs.",
+    "image": "https://images.unsplash.com/photo-1513694203232-719a280e022f?w=600",
+    "icon": "🪟",
+    "slug": "curtains",
+    "isActive": true,
+    "createdAt": "2024-01-03T00:00:00Z"
+  },
+  {
+    "id": "cat-4",
+    "name": "Sarees",
+    "nameHi": "साड़ियाँ",
+    "description": "Elegant sarees in cotton, silk, georgette, and more. Wholesale rates for retailers and bulk buyers.",
+    "image": "https://images.unsplash.com/photo-1610030469983-98e550d6193c?w=600",
+    "icon": "👗",
+    "slug": "sarees",
+    "isActive": true,
+    "createdAt": "2024-01-04T00:00:00Z"
+  },
+  {
+    "id": "cat-5",
+    "name": "Dress Materials & Fabrics",
+    "nameHi": "ड्रेस मटेरियल और कपड़े",
+    "description": "Wide range of dress materials and fabrics. Cotton, silk, polyester, linen - all available at wholesale prices.",
+    "image": "https://images.unsplash.com/photo-1558171813-4c088753af8f?w=600",
+    "icon": "🧵",
+    "slug": "dress-materials",
+    "isActive": true,
+    "createdAt": "2024-01-05T00:00:00Z"
+  },
+  {
+    "id": "cat-6",
+    "name": "Ready-made Dresses",
+    "nameHi": "रेडीमेड ड्रेसेज़",
+    "description": "Trendy ready-made dresses for women and kids. Latest designs at wholesale rates.",
+    "image": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=600",
+    "icon": "👘",
+    "slug": "readymade-dresses",
+    "isActive": true,
+    "createdAt": "2024-01-06T00:00:00Z"
+  },
+  {
+    "id": "cat-7",
+    "name": "Customised T-shirts & Shirts",
+    "nameHi": "कस्टमाइज टी-शर्ट और शर्ट",
+    "description": "Customised T-shirts for Hotel staff and other occasions. Uniform shirts with customised facilities.",
+    "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600",
+    "icon": "👕",
+    "slug": "custom-apparel",
+    "isActive": true,
+    "createdAt": "2024-05-01T00:00:00Z"
+  },
+  {
+    "id": "cat-8",
+    "name": "School Ties & Belts",
+    "nameHi": "स्कूल की टाई और बेल्ट",
+    "description": "Ties for schools uniform & School dress belts with name of schools printing.",
+    "image": "https://images.unsplash.com/photo-1620800630650-6a2c3a5efb26?w=600",
+    "icon": "👔",
+    "slug": "school-accessories",
+    "isActive": true,
+    "createdAt": "2024-05-01T00:00:00Z"
+  },
+  {
+    "id": "cat-9",
+    "name": "Uniform Pants",
+    "nameHi": "यूनिफॉर्म पैंट",
+    "description": "All kind of uniform Pants with customisation.",
+    "image": "https://images.unsplash.com/photo-1542272604-780c82f9b8c5?w=600",
+    "icon": "👖",
+    "slug": "uniform-pants",
+    "isActive": true,
+    "createdAt": "2024-05-01T00:00:00Z"
+  }
+]
