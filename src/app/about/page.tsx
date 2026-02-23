@@ -118,7 +118,7 @@ export default function AboutPage() {
           </div>
           <div className="mt-6 text-center">
             <p className="text-navy-600">
-              <strong className="text-navy-900">Address:</strong> Rohini Emporium, Sector 7, Rohini, New Delhi, Delhi 110085
+              <strong className="text-navy-900">Address:</strong> Rohini Emporium, near Rinwa Bhawan, Shivaji Nagar, Ratangarh, Rajasthan 331022
             </p>
           </div>
         </section>

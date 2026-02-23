@@ -5,7 +5,7 @@
     "nameHi": "सफेद स्कूल शर्ट - लड़कों के लिए",
     "description": "Premium white cotton school shirts for boys. Wrinkle-free fabric, comfortable fit. Available in all sizes from 22 to 44.",
     "categoryId": "cat-1",
-    "categoryName": "School Uniforms",
+    "categoryName": "School Supply",
     "images": [
       "https://images.unsplash.com/photo-1598032895397-b9472444bf93?w=600",
       "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=600"
@@ -66,7 +66,7 @@
     "nameHi": "नेवी ब्लू स्कूल ट्राउज़र",
     "description": "Durable navy blue school trousers with elastic waist option. Perfect for daily school wear.",
     "categoryId": "cat-1",
-    "categoryName": "School Uniforms",
+    "categoryName": "School Supply",
     "images": [
       "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?w=600"
     ],
@@ -125,7 +125,7 @@
     "nameHi": "लड़कियों का स्कूल पिनाफोर",
     "description": "Comfortable and stylish school pinafore for girls. Available in checked and plain patterns.",
     "categoryId": "cat-1",
-    "categoryName": "School Uniforms",
+    "categoryName": "School Supply",
     "images": [
       "https://images.unsplash.com/photo-1604671801908-6f0c6a092c05?w=600"
     ],
@@ -181,7 +181,7 @@
     "nameHi": "प्रीमियम सफेद होटल बेडशीट",
     "description": "300 thread count pure white hotel bedsheets. Soft, durable, and easy to wash. Perfect for hotels and guest houses.",
     "categoryId": "cat-2",
-    "categoryName": "Hotel Bedsheets",
+    "categoryName": "Hotels Supply",
     "images": [
       "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=600",
       "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=600"
@@ -235,7 +235,7 @@
     "nameHi": "प्रिंटेड होटल बेडशीट सेट",
     "description": "Beautiful printed bedsheet sets with 2 pillow covers. Multiple designs available for guest rooms.",
     "categoryId": "cat-2",
-    "categoryName": "Hotel Bedsheets",
+    "categoryName": "Hotels Supply",
     "images": [
       "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=600"
     ],
@@ -286,8 +286,8 @@
     "name": "Blackout Curtains - Heavy",
     "nameHi": "ब्लैकआउट पर्दे - हेवी",
     "description": "Premium blackout curtains for hotels and homes. Blocks 99% light. Available in solid colors.",
-    "categoryId": "cat-3",
-    "categoryName": "Curtains",
+    "categoryId": "cat-2",
+    "categoryName": "Hotels Supply",
     "images": [
       "https://images.unsplash.com/photo-1513694203232-719a280e022f?w=600"
     ],
@@ -341,7 +341,7 @@
     "nameHi": "शीयर पर्दे - लाइट",
     "description": "Elegant sheer curtains for a soft, airy look. Perfect for living rooms and offices.",
     "categoryId": "cat-3",
-    "categoryName": "Curtains",
+    "categoryName": "Readymades",
     "images": [
       "https://images.unsplash.com/photo-1771039621720-8e70947d9f37?q=80&w=1760&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     ],
@@ -393,8 +393,8 @@
     "name": "Banarasi Silk Saree",
     "nameHi": "बनारसी सिल्क साड़ी",
     "description": "Authentic Banarasi silk sarees with rich zari work. Perfect for weddings and special occasions. Wholesale for retailers.",
-    "categoryId": "cat-4",
-    "categoryName": "Sarees",
+    "categoryId": "cat-3",
+    "categoryName": "Readymades",
     "images": [
       "https://images.unsplash.com/photo-1610030469983-98e550d6193c?w=600"
     ],
@@ -437,7 +437,9 @@
       "saree",
       "silk",
       "banarasi",
-      "wedding"
+      "wedding",
+      "readymade",
+      "ladies"
     ],
     "createdAt": "2024-04-01T00:00:00Z"
   },
@@ -446,8 +448,8 @@
     "name": "Pure Cotton Fabric - Per Meter",
     "nameHi": "प्योर कॉटन कपड़ा - प्रति मीटर",
     "description": "Premium quality pure cotton fabric available in solid colors. Ideal for shirts, kurtas, and dresses.",
-    "categoryId": "cat-5",
-    "categoryName": "Dress Materials & Fabrics",
+    "categoryId": "cat-3",
+    "categoryName": "Readymades",
     "images": [
       "https://images.unsplash.com/photo-1558171813-4c088753af8f?w=600"
     ],
@@ -500,8 +502,8 @@
     "name": "Georgette Fabric - Per Meter",
     "nameHi": "जॉर्जेट कपड़ा - प्रति मीटर",
     "description": "Lightweight georgette fabric for sarees, dupattas, and dresses. Beautiful drape and feel.",
-    "categoryId": "cat-5",
-    "categoryName": "Dress Materials & Fabrics",
+    "categoryId": "cat-3",
+    "categoryName": "Readymades",
     "images": [
       "https://images.unsplash.com/photo-1528459801416-a9e53bbf4e17?w=600"
     ],
@@ -547,8 +549,8 @@
     "name": "Anarkali Kurti Set",
     "nameHi": "अनारकली कुर्ती सेट",
     "description": "Beautiful Anarkali kurti with dupatta. Perfect for festive occasions. Available in multiple designs.",
-    "categoryId": "cat-6",
-    "categoryName": "Ready-made Dresses",
+    "categoryId": "cat-3",
+    "categoryName": "Readymades",
     "images": [
       "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=600"
     ],
@@ -586,7 +588,7 @@
       "XXL"
     ],
     "minOrderQty": 3,
-    "stock": 500,
+    "stock": 223,
     "unit": "pieces",
     "isFeatured": true,
     "isActive": true,
@@ -594,7 +596,9 @@
       "dress",
       "kurti",
       "anarkali",
-      "festive"
+      "festive",
+      "readymade",
+      "ladies"
     ],
     "createdAt": "2024-06-01T00:00:00Z"
   },
@@ -603,8 +607,8 @@
     "name": "Kids Party Wear Frock",
     "nameHi": "किड्स पार्टी वियर फ्रॉक",
     "description": "Adorable party wear frocks for girls. Beautiful designs with net and sequin work.",
-    "categoryId": "cat-6",
-    "categoryName": "Ready-made Dresses",
+    "categoryId": "cat-3",
+    "categoryName": "Readymades",
     "images": [
       "https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?w=600"
     ],
@@ -650,7 +654,8 @@
       "kids",
       "party",
       "frock",
-      "girls"
+      "girls",
+      "readymade"
     ],
     "createdAt": "2024-06-02T00:00:00Z"
   },
@@ -659,8 +664,8 @@
     "name": "Customised Hotel Staff T-Shirts",
     "nameHi": "कस्टमाइज होटल स्टाफ टी-शर्ट",
     "description": "High quality customized t-shirts for hotel staff and other occasions. Logo printing and embroidery available.",
-    "categoryId": "cat-7",
-    "categoryName": "Customised T-shirts & Shirts",
+    "categoryId": "cat-2",
+    "categoryName": "Hotels Supply",
     "images": [
       "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600"
     ],
@@ -707,7 +712,8 @@
       "tshirt",
       "custom",
       "staff",
-      "uniform"
+      "uniform",
+      "hotel"
     ],
     "createdAt": "2024-05-01T00:00:00Z"
   },
@@ -716,8 +722,8 @@
     "name": "School Uniform Ties",
     "nameHi": "स्कूल यूनिफॉर्म टाई",
     "description": "Premium ties for school uniforms with custom school logo printing and specific stripe patterns.",
-    "categoryId": "cat-8",
-    "categoryName": "School Ties & Belts",
+    "categoryId": "cat-1",
+    "categoryName": "School Supply",
     "images": [
       "https://images.unsplash.com/photo-1589756823695-278bc923f962?w=600"
     ],
@@ -761,8 +767,8 @@
     "name": "School Dress Belts with Name Printing",
     "nameHi": "स्कूल ड्रेस बेल्ट नाम प्रिंटिंग के साथ",
     "description": "Durable school dress belts with customized school name printing on the buckle or strap.",
-    "categoryId": "cat-8",
-    "categoryName": "School Ties & Belts",
+    "categoryId": "cat-1",
+    "categoryName": "School Supply",
     "images": [
       "https://images.unsplash.com/photo-1603636489686-2ab6dc08fa8d?q=80&w=1291&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     ],
@@ -806,8 +812,8 @@
     "name": "Customised Uniform Pants",
     "nameHi": "कस्टमाइज यूनिफॉर्म पैंट",
     "description": "Premium uniform pants for hotel staff, schools, and corporate use. Available in all sizes with custom fitting options.",
-    "categoryId": "cat-9",
-    "categoryName": "Uniform Pants",
+    "categoryId": "cat-1",
+    "categoryName": "School Supply",
     "images": [
       "https://plus.unsplash.com/premium_photo-1707816501019-8f24a3c9bac4?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     ],
@@ -857,7 +863,8 @@
       "pants",
       "trousers",
       "uniform",
-      "custom"
+      "custom",
+      "school"
     ],
     "createdAt": "2024-05-01T00:00:00Z"
   }
