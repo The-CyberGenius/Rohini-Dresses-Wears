@@ -20,7 +20,7 @@ export default function ContactPage() {
   };
 
   return (
-    <div className="pt-20 md:pt-24 pb-16">
+    <div className="pb-16">
       {/* Hero */}
       <section className="bg-gradient-to-br from-navy-900 to-navy-950 py-16 relative overflow-hidden">
         <div className="absolute inset-0 opacity-10">
@@ -40,7 +40,7 @@ export default function ContactPage() {
           <div>
             <h2 className="section-title mb-6">Get In <span className="text-primary-500">Touch</span></h2>
             <p className="text-navy-600 mb-8">
-              Contact Siddharth directly for wholesale pricing, bulk orders, or any inquiries. 
+              Contact Siddharth directly for wholesale pricing, bulk orders, or any inquiries.
               We&apos;re always happy to help!
             </p>
 

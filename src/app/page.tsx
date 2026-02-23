@@ -50,7 +50,7 @@ export default function Home() {
   }, []);
 
   return (
-    <div className="pt-16 md:pt-20">
+    <div>
       {/* Hero Section */}
       <section className="relative min-h-[90vh] flex items-center overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-navy-950 via-navy-900 to-navy-800" />
@@ -75,7 +75,7 @@ export default function Home() {
                 <br />& Wears
               </h1>
               <p className="mt-6 text-lg md:text-xl text-navy-200 leading-relaxed max-w-lg">
-                Premium wholesale clothing, school uniforms, hotel bedsheets, curtains, sarees & fabrics. 
+                Premium wholesale clothing, school uniforms, hotel bedsheets, curtains, sarees & fabrics.
                 <span className="text-primary-300 font-medium"> Best prices guaranteed</span> for bulk orders.
               </p>
               <div className="flex flex-wrap gap-4 mt-8">

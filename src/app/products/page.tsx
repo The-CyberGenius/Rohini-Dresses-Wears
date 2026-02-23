@@ -49,7 +49,7 @@ function ProductsContent() {
   const fabrics = ["all", "Cotton", "Silk", "Polyester Blend", "Cotton Satin", "Georgette", "Rayon", "Net & Satin", "Polyester Blackout", "Sheer Polyester", "Cotton Blend", "Pure Cotton"];
 
   return (
-    <div className="pt-20 md:pt-24 pb-16">
+    <div className="pb-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="mb-8">

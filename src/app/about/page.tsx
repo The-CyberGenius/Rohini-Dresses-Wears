@@ -1,6 +1,6 @@
 export default function AboutPage() {
   return (
-    <div className="pt-20 md:pt-24 pb-16">
+    <div className="pb-16">
       {/* Hero */}
       <section className="bg-gradient-to-br from-navy-900 to-navy-950 py-16 md:py-24 relative overflow-hidden">
         <div className="absolute inset-0 opacity-10">
@@ -24,17 +24,17 @@ export default function AboutPage() {
               <h2 className="section-title mb-6">Our <span className="text-primary-500">Story</span></h2>
               <div className="space-y-4 text-navy-600 leading-relaxed">
                 <p>
-                  <strong className="text-navy-900">Rohini Dresses & Wears</strong> was founded in 2010 by <strong className="text-primary-600">Siddharth</strong> with a vision to provide 
+                  <strong className="text-navy-900">Rohini Dresses & Wears</strong> was founded in 2010 by <strong className="text-primary-600">Siddharth</strong> with a vision to provide
                   the best quality wholesale clothing at affordable prices to businesses across Delhi NCR.
                 </p>
                 <p>
-                  Starting from a small shop in Rohini Sector 7, we have grown into one of the most trusted wholesale 
-                  clothing suppliers in North Delhi. Today, we serve over 5,000 clients including schools, hotels, 
+                  Starting from a small shop in Rohini Sector 7, we have grown into one of the most trusted wholesale
+                  clothing suppliers in North Delhi. Today, we serve over 5,000 clients including schools, hotels,
                   retailers, and institutional buyers.
                 </p>
                 <p>
-                  Our product range covers everything from school uniforms and hotel bedsheets to sarees, dress materials, 
-                  curtains, and ready-made dresses. We believe in building long-term relationships with our clients 
+                  Our product range covers everything from school uniforms and hotel bedsheets to sarees, dress materials,
+                  curtains, and ready-made dresses. We believe in building long-term relationships with our clients
                   through quality, reliability, and competitive pricing.
                 </p>
               </div>
@@ -65,8 +65,8 @@ export default function AboutPage() {
             <h2 className="text-3xl font-heading font-bold text-navy-900 mb-2">Siddharth</h2>
             <p className="text-primary-500 font-medium mb-4">Founder & Owner</p>
             <p className="text-navy-600 leading-relaxed max-w-xl mx-auto">
-              With over 14 years of experience in the wholesale clothing industry, Siddharth has built 
-              Rohini Dresses & Wears into a name synonymous with quality and trust. His hands-on approach 
+              With over 14 years of experience in the wholesale clothing industry, Siddharth has built
+              Rohini Dresses & Wears into a name synonymous with quality and trust. His hands-on approach
               and commitment to customer satisfaction has earned the business a loyal clientele across Delhi NCR.
             </p>
             <div className="flex justify-center gap-4 mt-6">
