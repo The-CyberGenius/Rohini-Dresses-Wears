@@ -109,7 +109,7 @@ export default function Footer() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                 </svg>
                 <p className="text-navy-300 text-sm">
-                  Rohini , Ratangarh, Rajasthan, India - 331022
+                  Rohini Emporium, near Rinwa Bhawan, Shivaji Nagar, Ratangarh, Rajasthan 331022
                 </p>
               </div>
               <div className="flex items-center gap-3">

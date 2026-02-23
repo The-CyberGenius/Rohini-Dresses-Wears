@@ -54,7 +54,7 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <h3 className="font-semibold text-navy-900">Address</h3>
-                  <p className="text-navy-500 text-sm">Rohini Sector 7, New Delhi - 110085</p>
+                  <p className="text-navy-500 text-sm">Rohini Emporium, near Rinwa Bhawan, Shivaji Nagar, Ratangarh, Rajasthan 331022</p>
                 </div>
               </div>
 
@@ -111,7 +111,7 @@ export default function ContactPage() {
             {/* Map */}
             <div className="mt-8 rounded-2xl overflow-hidden shadow-lg h-64">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3498.5!2d77.05!3d28.73!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjjCsDQzJzQ4LjAiTiA3N8KwMDMnMDAuMCJF!5e0!3m2!1sen!2sin!4v1600000000000"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4281.35770207966!2d74.61648407619813!3d28.07238797597522!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3914b8ca49330f07%3A0x569956f25a9bd14!2sROHINI%20EMPORIUM%20(ROHINI%20DRESSES)!5e1!3m2!1sen!2sin!4v1771865098496!5m2!1sen!2sin"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
