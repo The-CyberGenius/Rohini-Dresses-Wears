@@ -157,11 +157,10 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
               <Link
                 key={link.href}
                 href={link.href}
-                className={`flex items-center gap-3 px-4 py-3 rounded-xl text-sm font-medium transition-all ${
-                  pathname === link.href
+                className={`flex items-center gap-3 px-4 py-3 rounded-xl text-sm font-medium transition-all ${pathname === link.href
                     ? "bg-primary-50 text-primary-700"
                     : "text-navy-600 hover:bg-navy-50 hover:text-navy-900"
-                }`}
+                  }`}
               >
                 <span className="text-lg">{link.icon}</span>
                 {link.label}
@@ -170,7 +169,7 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
           </nav>
 
           <div className="absolute bottom-0 left-0 right-0 p-4 border-t border-navy-100">
-            <Link href="/" className="flex items-center gap-2 px-4 py-2 text-sm text-navy-500 hover:text-navy-700 rounded-lg hover:bg-navy-50 mb-2">
+            <Link href="/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 px-4 py-2 text-sm text-navy-500 hover:text-navy-700 rounded-lg hover:bg-navy-50 mb-2">
               🌐 View Website
             </Link>
             <button onClick={handleLogout} className="flex items-center gap-2 px-4 py-2 text-sm text-red-500 hover:text-red-700 rounded-lg hover:bg-red-50 w-full">

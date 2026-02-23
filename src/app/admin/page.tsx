@@ -84,7 +84,7 @@ export default function AdminDashboard() {
           <Link href="/admin/products" className="btn-primary text-sm">+ Add Product</Link>
           <Link href="/admin/categories" className="btn-secondary text-sm">+ Add Category</Link>
           <Link href="/admin/inquiries" className="btn-outline text-sm">View Inquiries</Link>
-          <Link href="/" className="bg-navy-100 text-navy-700 px-4 py-2 rounded-lg text-sm font-medium hover:bg-navy-200 transition-colors">
+          <Link href="/" target="_blank" rel="noopener noreferrer" className="bg-navy-100 text-navy-700 px-4 py-2 rounded-lg text-sm font-medium hover:bg-navy-200 transition-colors">
             🌐 View Website
           </Link>
         </div>
