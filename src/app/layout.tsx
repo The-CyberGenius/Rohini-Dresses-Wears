@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     template: "%s | Rohini Dresses & Wears",
   },
   description:
-    "Wholesale clothing supplier in Rohini, Delhi. School uniforms, hotel bedsheets, curtains, sarees, dress materials & ready-made dresses at best wholesale prices. Owner: Siddharth.",
+    "Wholesale clothing supplier in Ratangarh, Rajasthan. School uniforms, hotel bedsheets, curtains, sarees, dress materials & ready-made dresses at best wholesale prices. Owner: Siddharth.",
   keywords: [
     "wholesale clothing",
     "school uniforms",
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     "sarees",
     "fabrics",
     "Rohini",
-    "Delhi",
+    "Rajasthan",
     "bulk order",
   ],
 };

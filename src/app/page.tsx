@@ -227,10 +227,10 @@ export default function Home() {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {[
-              { icon: "💰", title: "Wholesale Prices", titleHi: "थोक दाम", desc: "Best wholesale rates in Delhi NCR. Direct manufacturer prices with no middlemen." },
+              { icon: "💰", title: "Wholesale Prices", titleHi: "थोक दाम", desc: "Best wholesale rates in Rajasthan & All India. Direct manufacturer prices with no middlemen." },
               { icon: "🏆", title: "Premium Quality", titleHi: "उत्तम गुणवत्ता", desc: "Only premium quality fabrics and materials. Every product passes quality checks." },
-              { icon: "🚚", title: "Fast Delivery", titleHi: "तेज़ डिलीवरी", desc: "Quick delivery across Delhi NCR. Bulk orders delivered within 3-5 business days." },
-              { icon: "🤝", title: "Trusted Since 2010", titleHi: "2010 से विश्वसनीय", desc: "14+ years of experience serving schools, hotels, and retailers. 5000+ happy clients." },
+              { icon: "🚚", title: "Fast Delivery", titleHi: "तेज़ डिलीवरी", desc: "Quick delivery across Rajasthan & All India. Bulk orders delivered within 3-5 business days." },
+              { icon: "🤝", title: "Trusted Since 2010", titleHi: "2010 से विश्वसनीय", desc: "14+ years of experience serving schools, hotels, and retailers. 5000+ happy clients across India." },
             ].map((item, i) => (
               <div key={i} className="card p-6 text-center group hover:bg-gradient-to-br hover:from-navy-900 hover:to-navy-800">
                 <div className="text-4xl mb-4 group-hover:animate-bounce-gentle">{item.icon}</div>

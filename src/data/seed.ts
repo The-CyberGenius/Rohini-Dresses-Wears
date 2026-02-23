@@ -5,7 +5,7 @@ export const defaultCategories: Category[] = [
     id: "cat-1",
     name: "School Uniforms",
     nameHi: "स्कूल यूनिफॉर्म",
-    description: "Premium quality school uniforms for bulk orders. Available in all sizes with customization options for schools across Rohini and Delhi.",
+    description: "Premium quality school uniforms for bulk orders. Available in all sizes with customization options for schools across Rajasthan and All India.",
     image: "https://images.unsplash.com/photo-1604671801908-6f0c6a092c05?w=600",
     icon: "🎓",
     slug: "school-uniforms",

@@ -28,7 +28,7 @@ export default function AboutPage() {
                   the best quality wholesale clothing at affordable prices to businesses across India.
                 </p>
                 <p>
-                  Starting from a small shop in Rohini, we have grown into one of the most trusted wholesale
+                  Starting from a small shop in Ratangarh, we have grown into one of the most trusted wholesale
                   clothing suppliers in India. Today, we serve over 10,000 clients including schools, hotels,
                   retailers, and institutional buyers.
                 </p>
@@ -98,7 +98,6 @@ export default function AboutPage() {
               </div>
             ))}
           </div>
-          {/* Offer section finishes at line 101 */}
         </section>
 
         {/* Location Map */}
