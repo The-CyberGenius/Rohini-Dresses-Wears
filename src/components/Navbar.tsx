@@ -1,7 +1,6 @@
 "use client";
 import { useState, useEffect } from "react";
 import Link from "next/link";
-import NextImage from "next/image";
 import { usePathname } from "next/navigation";
 
 const navLinks = [
@@ -40,15 +39,25 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
-          <Link href="/" className="flex items-center group">
-            <div className="relative w-40 h-14 md:w-56 md:h-16">
-              <NextImage
-                src="/logo.png"
-                alt="Rohini Dresses & Wears"
-                fill
-                className="object-contain"
-                priority
-              />
+          <Link href="/" className="flex items-center gap-3 group">
+            <div className="relative">
+              <div className="w-12 h-12 bg-navy-900 rounded-xl flex items-center justify-center shadow-lg group-hover:shadow-primary-500/20 group-hover:scale-105 transition-all duration-300 overflow-hidden">
+                {/* Elegant SVG R Logo */}
+                <svg viewBox="0 0 100 100" className="w-8 h-8 text-white fill-current">
+                  <path d="M30 20 H55 C70 20 75 30 75 40 C75 50 70 60 55 60 H45 L75 85 V85 H60 L35 60 H30 V85 H20 V20 H30 Z M30 30 V50 H55 C60 50 65 45 65 40 C65 35 60 30 55 30 H30 Z" />
+                </svg>
+                <div className="absolute inset-0 bg-gradient-to-tr from-primary-600/20 to-transparent" />
+              </div>
+              <div className="absolute -bottom-1 -right-1 w-4 h-4 bg-gold-500 rounded-full border-2 border-white" />
+            </div>
+
+            <div className="flex flex-col">
+              <span className="font-heading font-black text-navy-950 text-base md:text-xl tracking-tight leading-none">
+                ROHINI
+              </span>
+              <span className="text-[10px] md:text-xs text-primary-600 font-bold tracking-[0.2em] uppercase mt-0.5">
+                DRESSES & WEARS
+              </span>
             </div>
           </Link>
 

@@ -15,17 +15,19 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 md:gap-12">
           {/* Brand */}
           <div className="lg:col-span-1">
-            <div className="flex items-center gap-3 mb-4">
-              <div className="w-12 h-12 bg-gradient-to-br from-primary-500 to-gold-500 rounded-xl flex items-center justify-center">
-                <span className="text-white font-heading font-bold text-xl">R</span>
+            <div className="flex items-center gap-3 mb-6">
+              <div className="w-12 h-12 bg-white/10 rounded-xl flex items-center justify-center border border-white/20">
+                <svg viewBox="0 0 100 100" className="w-8 h-8 text-primary-400 fill-current">
+                  <path d="M30 20 H55 C70 20 75 30 75 40 C75 50 70 60 55 60 H45 L75 85 V85 H60 L35 60 H30 V85 H20 V20 H30 Z M30 30 V50 H55 C60 50 65 45 65 40 C65 35 60 30 55 30 H30 Z" />
+                </svg>
               </div>
               <div>
-                <h3 className="font-heading font-bold text-lg">Rohini Dresses</h3>
-                <p className="text-primary-300 text-xs tracking-wider uppercase">& Wears</p>
+                <h3 className="font-heading font-black text-xl tracking-tight">ROHINI</h3>
+                <p className="text-primary-400 text-[10px] font-bold tracking-[0.2em] uppercase">DRESSES & WEARS</p>
               </div>
             </div>
             <p className="text-navy-300 text-sm leading-relaxed mb-4">
-              Your trusted wholesale partner for quality clothing, school uniforms, hotel linens, 
+              Your trusted wholesale partner for quality clothing, school uniforms, hotel linens,
               and fabrics. Serving businesses across Delhi NCR since 2010.
             </p>
             <p className="text-navy-400 text-sm">
