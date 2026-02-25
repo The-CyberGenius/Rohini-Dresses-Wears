@@ -48,7 +48,7 @@ export default function Footer() {
               and fabrics. Serving businesses across India since 2015.
             </p>
             <p className="text-navy-400 text-sm">
-              <strong className="text-primary-400">Owner:</strong> Siddharth
+              <strong className="text-primary-400">Owners:</strong> Kautilya Pareek / Siddharth Pareek
             </p>
           </div>
 

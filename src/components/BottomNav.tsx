@@ -89,10 +89,10 @@ export default function BottomNav() {
             >
               <div
                 className={`p-1.5 rounded-full transition-all duration-300 ${isWhatsApp
-                    ? "bg-green-500 text-white shadow-lg shadow-green-200 animate-pulse-slow"
-                    : isActive
-                      ? "bg-primary-50"
-                      : ""
+                  ? "bg-green-500 text-white shadow-lg shadow-green-200 animate-pulse-slow"
+                  : isActive
+                    ? "bg-primary-50"
+                    : ""
                   }`}
               >
                 {item.icon}
