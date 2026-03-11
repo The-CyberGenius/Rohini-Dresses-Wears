@@ -8,6 +8,7 @@ const adminLinks = [
   { href: "/admin/categories", label: "Categories", icon: "📁" },
   { href: "/admin/products", label: "Products", icon: "📦" },
   { href: "/admin/inquiries", label: "Inquiries", icon: "📩" },
+  { href: "/admin/settings", label: "Site Settings", icon: "⚙️" },
 ];
 
 export default function AdminLayout({ children }: { children: React.ReactNode }) {

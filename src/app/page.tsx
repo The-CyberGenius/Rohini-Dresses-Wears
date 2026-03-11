@@ -36,15 +36,25 @@ function AnimatedCounter({ target, label, suffix = "" }: { target: number; label
 export default function Home() {
   const [categories, setCategories] = useState<Category[]>([]);
   const [featuredProducts, setFeaturedProducts] = useState<Product[]>([]);
+  const [heroImages, setHeroImages] = useState<string[]>([
+    "https://plus.unsplash.com/premium_photo-1707816501019-8f24a3c9bac4?q=80&w=1287&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1610030469983-98e550d6193c?w=400&h=400&fit=crop",
+    "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=400&h=400&fit=crop",
+    "https://images.unsplash.com/photo-1558171813-4c088753af8f?w=400&h=300&fit=crop"
+  ]);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     Promise.all([
       fetch("/api/categories").then((r) => r.json()),
       fetch("/api/products?featured=true").then((r) => r.json()),
-    ]).then(([catData, prodData]) => {
+      fetch("/api/settings?key=hero_images").then((r) => r.json()),
+    ]).then(([catData, prodData, settingsData]) => {
       setCategories(catData.categories || []);
       setFeaturedProducts(prodData.products || []);
+      if (settingsData.value && Array.isArray(settingsData.value) && settingsData.value.length === 4) {
+        setHeroImages(settingsData.value);
+      }
       setLoading(false);
     });
   }, []);
@@ -111,19 +121,19 @@ export default function Home() {
                 <div className="absolute inset-0 bg-gradient-to-br from-primary-500/20 to-gold-500/20 rounded-3xl blur-xl" />
                 <div className="relative grid grid-cols-2 gap-4">
                   <div className="space-y-4">
-                    <div className="rounded-2xl overflow-hidden shadow-2xl h-48">
-                      <Image src="https://plus.unsplash.com/premium_photo-1707816501019-8f24a3c9bac4?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="School Uniforms" width={400} height={300} className="w-full h-full object-cover hover:scale-110 transition-transform duration-500" />
+                    <div className="rounded-2xl overflow-hidden shadow-2xl h-48 bg-navy-50">
+                      {heroImages[0] && <Image src={heroImages[0]} alt="Hero 1" width={400} height={300} className="w-full h-full object-cover hover:scale-110 transition-transform duration-500" />}
                     </div>
-                    <div className="rounded-2xl overflow-hidden shadow-2xl h-64">
-                      <Image src="https://images.unsplash.com/photo-1610030469983-98e550d6193c?w=400&h=400&fit=crop" alt="Sarees" width={400} height={400} className="w-full h-full object-cover hover:scale-110 transition-transform duration-500" />
+                    <div className="rounded-2xl overflow-hidden shadow-2xl h-64 bg-navy-50">
+                      {heroImages[1] && <Image src={heroImages[1]} alt="Hero 2" width={400} height={400} className="w-full h-full object-cover hover:scale-110 transition-transform duration-500" />}
                     </div>
                   </div>
                   <div className="space-y-4 pt-8">
-                    <div className="rounded-2xl overflow-hidden shadow-2xl h-64">
-                      <Image src="https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=400&h=400&fit=crop" alt="Bedsheets" width={400} height={400} className="w-full h-full object-cover hover:scale-110 transition-transform duration-500" />
+                    <div className="rounded-2xl overflow-hidden shadow-2xl h-64 bg-navy-50">
+                      {heroImages[2] && <Image src={heroImages[2]} alt="Hero 3" width={400} height={400} className="w-full h-full object-cover hover:scale-110 transition-transform duration-500" />}
                     </div>
-                    <div className="rounded-2xl overflow-hidden shadow-2xl h-48">
-                      <Image src="https://images.unsplash.com/photo-1558171813-4c088753af8f?w=400&h=300&fit=crop" alt="Fabrics" width={400} height={300} className="w-full h-full object-cover hover:scale-110 transition-transform duration-500" />
+                    <div className="rounded-2xl overflow-hidden shadow-2xl h-48 bg-navy-50">
+                      {heroImages[3] && <Image src={heroImages[3]} alt="Hero 4" width={400} height={300} className="w-full h-full object-cover hover:scale-110 transition-transform duration-500" />}
                     </div>
                   </div>
                 </div>
