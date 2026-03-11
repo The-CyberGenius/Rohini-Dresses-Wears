@@ -1,9 +1,23 @@
 "use client";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { useState, useEffect } from "react";
+import { Category } from "@/types";
 
 export default function Footer() {
   const pathname = usePathname();
+  const [categories, setCategories] = useState<Category[]>([]);
+
+  useEffect(() => {
+    fetch("/api/categories")
+      .then((r) => r.json())
+      .then((data) => {
+        if (data.categories) {
+          setCategories(data.categories);
+        }
+      })
+      .catch((err) => console.error("Failed to fetch footer categories:", err));
+  }, []);
   if (pathname?.startsWith("/admin")) return null;
 
   return (
@@ -79,23 +93,19 @@ export default function Footer() {
           <div>
             <h4 className="font-heading font-bold text-lg mb-4 text-primary-300">Our Categories</h4>
             <ul className="space-y-2">
-              {[
-                "School Uniforms",
-                "Hotel Bedsheets",
-                "Curtains",
-                "Sarees",
-                "Dress Materials",
-                "Ready-made Dresses",
-              ].map((cat) => (
-                <li key={cat}>
+              {categories.slice(0, 6).map((cat) => (
+                <li key={cat.id}>
                   <Link
-                    href="/categories"
+                    href={`/products?category=${cat.id}`}
                     className="text-navy-300 hover:text-primary-300 transition-colors text-sm"
                   >
-                    {cat}
+                    {cat.name}
                   </Link>
                 </li>
               ))}
+              {categories.length === 0 && (
+                <li className="text-navy-500 text-sm">Loading...</li>
+              )}
             </ul>
           </div>
 
