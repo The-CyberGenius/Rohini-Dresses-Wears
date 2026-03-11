@@ -52,8 +52,10 @@ export default function Home() {
     ]).then(([catData, prodData, settingsData]) => {
       setCategories(catData.categories || []);
       setFeaturedProducts(prodData.products || []);
-      if (settingsData.value && Array.isArray(settingsData.value) && settingsData.value.length === 4) {
-        setHeroImages(settingsData.value);
+      if (settingsData.value && Array.isArray(settingsData.value)) {
+        const newImages = [...settingsData.value];
+        while (newImages.length < 4) newImages.push("");
+        setHeroImages(newImages.slice(0, 4));
       }
       setLoading(false);
     });

@@ -64,9 +64,8 @@ export default function AdminSettings() {
     setSaving(true);
     setMessage("Saving settings...");
     
-    // Filter out completely empty strings to prevent broken src errors, 
-    // although they should be replaced with default empty objects by the user
-    const validImages = heroImages.filter(url => url.trim() !== "");
+    // We no longer filter out empty strings. We keep exactly 4 elements.
+    const validImages = heroImages.slice(0, 4);
 
     try {
       const res = await fetch("/api/settings", {

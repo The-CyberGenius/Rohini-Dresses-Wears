@@ -63,7 +63,8 @@ This platform bridges the gap between traditional wholesale and digital boutique
 ---------------------------------------------------
 Prepared with excellence for Rohini Dresses & Wears.
 
-
+To control all categories, products, inquiries, and settings, use the admin panel.
 admin panel /admin
-admin
-rohini@sid
+user name : admin
+password :rohini@sid
+
