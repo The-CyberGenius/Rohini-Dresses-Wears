@@ -149,9 +149,25 @@ export default function AdminSettings() {
                   )}
                 </div>
 
-                <div className="flex gap-2">
-                  <label className="flex-1 cursor-pointer bg-navy-100 hover:bg-navy-200 text-navy-700 text-center px-3 py-2 rounded-lg text-sm font-medium transition-colors">
-                    {saving && imgUrl === "" ? "Uploading..." : imgUrl ? "Change" : "Upload"}
+                <div className="flex flex-col gap-2">
+                  <input
+                    type="url"
+                    placeholder="Paste Image URL"
+                    value={imgUrl}
+                    onChange={(e) => {
+                      const newImgs = [...heroImages];
+                      newImgs[index] = e.target.value;
+                      setHeroImages(newImgs);
+                    }}
+                    className="input-field text-sm px-3 py-2"
+                  />
+                  <div className="flex items-center gap-2">
+                    <div className="h-px bg-navy-100 flex-1"></div>
+                    <span className="text-xs text-navy-400 font-medium">OR</span>
+                    <div className="h-px bg-navy-100 flex-1"></div>
+                  </div>
+                  <label className="w-full cursor-pointer bg-navy-100 hover:bg-navy-200 text-navy-700 text-center px-3 py-2 rounded-lg text-sm font-medium transition-colors">
+                    {saving && imgUrl === "" ? "Uploading..." : "Upload File"}
                     <input
                       type="file"
                       accept="image/*"
