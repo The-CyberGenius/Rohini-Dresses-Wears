@@ -137,8 +137,8 @@ export default function Home() {
       <section className="py-16 bg-white border-b border-navy-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
-            <AnimatedCounter target={14} label="Years Experience" suffix="+" />
-            <AnimatedCounter target={5000} label="Happy Clients" suffix="+" />
+            <AnimatedCounter target={11} label="Years Experience" suffix="+" />
+            <AnimatedCounter target={10000} label="Happy Clients" suffix="+" />
             <AnimatedCounter target={50000} label="Products Delivered" suffix="+" />
             <AnimatedCounter target={200} label="Schools Served" suffix="+" />
           </div>
@@ -230,7 +230,7 @@ export default function Home() {
               { icon: "💰", title: "Wholesale Prices", titleHi: "थोक दाम", desc: "Best wholesale rates in Rajasthan & All India. Direct manufacturer prices with no middlemen." },
               { icon: "🏆", title: "Premium Quality", titleHi: "उत्तम गुणवत्ता", desc: "Only premium quality fabrics and materials. Every product passes quality checks." },
               { icon: "🚚", title: "Fast Delivery", titleHi: "तेज़ डिलीवरी", desc: "Quick delivery across Rajasthan & All India. Bulk orders delivered within 3-5 business days." },
-              { icon: "🤝", title: "Trusted Since 2015", titleHi: "2015 से विश्वसनीय", desc: "14+ years of experience serving schools, hotels, and retailers. 5000+ happy clients across India." },
+              { icon: "🤝", title: "Trusted Since 2015", titleHi: "2015 से विश्वसनीय", desc: "11+ years of experience serving schools, hotels, and retailers. 10,000+ happy clients across India." },
             ].map((item, i) => (
               <div key={i} className="card p-6 text-center group hover:bg-gradient-to-br hover:from-navy-900 hover:to-navy-800">
                 <div className="text-4xl mb-4 group-hover:animate-bounce-gentle">{item.icon}</div>

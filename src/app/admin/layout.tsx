@@ -105,7 +105,7 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
               <button type="submit" className="btn-primary w-full">Login</button>
             </form>
             <p className="text-xs text-navy-400 mt-4 text-center">
-              Default: admin / rohini@2024
+              Default: admin / rohini@sid
             </p>
           </div>
           <div className="text-center mt-6">

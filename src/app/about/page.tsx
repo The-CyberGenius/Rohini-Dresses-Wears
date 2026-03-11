@@ -41,8 +41,8 @@ export default function AboutPage() {
             </div>
             <div className="grid grid-cols-2 gap-4">
               {[
-                { num: "14+", label: "Years in Business", icon: "📅" },
-                { num: "5000+", label: "Happy Clients", icon: "😊" },
+                { num: "11+", label: "Years in Business", icon: "📅" },
+                { num: "10,000+", label: "Happy Clients", icon: "😊" },
                 { num: "50K+", label: "Products Delivered", icon: "📦" },
                 { num: "200+", label: "Schools Served", icon: "🏫" },
               ].map((stat, i) => (
@@ -65,7 +65,7 @@ export default function AboutPage() {
             <h2 className="text-3xl font-heading font-bold text-navy-900 mb-2">Siddharth</h2>
             <p className="text-primary-500 font-medium mb-4">Founder & Owner</p>
             <p className="text-navy-600 leading-relaxed max-w-xl mx-auto">
-              With over 10 years of experience in the wholesale clothing industry, Siddharth has built
+              With over 11 years of experience in the wholesale clothing industry, Siddharth has built
               Rohini Dresses & Wears into a name synonymous with quality and trust. His hands-on approach
               and commitment to customer satisfaction has earned the business a loyal clientele across India.
             </p>
