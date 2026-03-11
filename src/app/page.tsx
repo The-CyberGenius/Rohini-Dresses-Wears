@@ -116,7 +116,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="hidden lg:block animate-slide-in-right">
+            <div className="mt-12 lg:mt-0 animate-slide-in-right">
               <div className="relative">
                 <div className="absolute inset-0 bg-gradient-to-br from-primary-500/20 to-gold-500/20 rounded-3xl blur-xl" />
                 <div className="relative grid grid-cols-2 gap-4">
