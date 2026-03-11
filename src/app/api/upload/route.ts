@@ -1,7 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import { writeFile, mkdir } from "fs/promises";
-import { join } from "path";
-import { existsSync } from "fs";
+import { supabase } from "@/lib/supabase";
 
 export const config = {
     api: {
@@ -29,23 +27,30 @@ export async function POST(request: NextRequest) {
         const extension = file.name.split('.').pop() || 'tmp';
         const filename = `upload-${uniqueSuffix}.${extension}`;
 
-        // Ensure uploads directory exists
-        const uploadsDir = join(process.cwd(), "public", "uploads");
-        if (!existsSync(uploadsDir)) {
-            await mkdir(uploadsDir, { recursive: true });
+        // Upload to Supabase Storage
+        const { data, error } = await supabase.storage
+            .from("uploads")
+            .upload(filename, buffer, {
+                contentType: file.type,
+                cacheControl: "3600",
+                upsert: false,
+            });
+
+        if (error) {
+            console.error("Supabase Upload error:", error);
+            throw error;
         }
 
-        const filepath = join(uploadsDir, filename);
-
-        // Write file to public/uploads
-        await writeFile(filepath, buffer);
-
         // Return the public URL
-        const publicUrl = `/uploads/${filename}`;
+        const { data: publicUrlData } = supabase.storage
+            .from("uploads")
+            .getPublicUrl(filename);
+
+        if (!publicUrlData) throw new Error("Could not get public URL");
 
         return NextResponse.json({
             success: true,
-            url: publicUrl,
+            url: publicUrlData.publicUrl,
         });
     } catch (error) {
         console.error("Upload error:", error);
