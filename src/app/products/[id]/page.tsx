@@ -13,6 +13,7 @@ export default function ProductDetailPage() {
   const [inquiryForm, setInquiryForm] = useState({ name: "", phone: "", email: "", message: "", quantity: "" });
   const [submitting, setSubmitting] = useState(false);
   const [submitted, setSubmitted] = useState(false);
+  const [isZoomOpen, setIsZoomOpen] = useState(false);
 
   useEffect(() => {
     fetch("/api/products")
@@ -82,7 +83,10 @@ export default function ProductDetailPage() {
         <div className="grid lg:grid-cols-2 gap-8 lg:gap-12">
           {/* Image Gallery */}
           <div>
-            <div className="relative h-80 md:h-[500px] rounded-2xl overflow-hidden bg-navy-50">
+            <div 
+              className="relative h-80 md:h-[500px] rounded-2xl overflow-hidden bg-navy-50 cursor-zoom-in"
+              onClick={() => setIsZoomOpen(true)}
+            >
               <Image src={product.images[selectedImage]} alt={product.name} fill className="object-cover" />
               <div className="absolute top-4 left-4 flex gap-2">
                 <span className="badge bg-primary-500 text-white">Wholesale</span>
@@ -201,6 +205,45 @@ export default function ProductDetailPage() {
           </div>
         </div>
       </div>
+
+      {/* Fullscreen Image Zoom Overlay */}
+      {isZoomOpen && (
+        <div 
+          className="fixed inset-0 z-50 bg-black/90 flex items-center justify-center p-4 cursor-zoom-out animate-fade-in"
+          onClick={() => setIsZoomOpen(false)}
+        >
+          <button 
+            className="absolute top-6 right-6 text-white bg-white/10 hover:bg-white/20 rounded-full p-2 z-50 transition-colors"
+            onClick={(e) => { e.stopPropagation(); setIsZoomOpen(false); }}
+          >
+            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" /></svg>
+          </button>
+          
+          <div className="relative w-full max-w-5xl h-[80vh]" onClick={(e) => e.stopPropagation()}>
+            <Image 
+              src={product.images[selectedImage]} 
+              alt={product.name} 
+              fill 
+              className="object-contain" 
+            />
+          </div>
+
+          {/* Thumbnail strip in zoom view if multiple images */}
+          {product.images.length > 1 && (
+            <div className="absolute bottom-6 left-1/2 -translate-x-1/2 flex gap-3 px-4 py-3 bg-black/50 rounded-2xl backdrop-blur-sm" onClick={(e) => e.stopPropagation()}>
+              {product.images.map((img, i) => (
+                <button 
+                  key={i} 
+                  onClick={() => setSelectedImage(i)} 
+                  className={`relative w-16 h-16 rounded-lg overflow-hidden border-2 transition-all ${i === selectedImage ? "border-primary-500 scale-110" : "border-transparent opacity-60 hover:opacity-100"}`}
+                >
+                  <Image src={img} alt="" fill className="object-cover" />
+                </button>
+              ))}
+            </div>
+          )}
+        </div>
+      )}
     </div>
   );
 }

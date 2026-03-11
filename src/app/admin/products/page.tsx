@@ -33,7 +33,7 @@ export default function AdminProducts() {
 
   useEffect(() => { fetchData(); }, []);
 
-  const handleSubmit = async (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent, addAnother: boolean = false) => {
     e.preventDefault();
     setSaving(true);
     const selectedCat = categories.find((c) => c.id === form.categoryId);
@@ -61,10 +61,23 @@ export default function AdminProducts() {
       });
     }
     setSaving(false);
-    setShowForm(false);
-    setEditing(null);
-    setForm(emptyProduct);
     fetchData();
+
+    if (addAnother) {
+      // Keep form open, just reset the important fields but keep category/unit/etc for speed
+      setForm({
+        ...emptyProduct,
+        categoryId: form.categoryId, 
+        categoryName: form.categoryName,
+        unit: form.unit,
+        price: form.price,
+      });
+      setEditing(null);
+    } else {
+      setShowForm(false);
+      setEditing(null);
+      setForm(emptyProduct);
+    }
   };
 
   const handleEdit = (prod: Product) => {
@@ -126,7 +139,7 @@ export default function AdminProducts() {
               </h2>
               <button onClick={() => { setShowForm(false); setEditing(null); }} className="text-navy-400 hover:text-navy-600 text-xl">✕</button>
             </div>
-            <form onSubmit={handleSubmit} className="p-6 space-y-4">
+            <form onSubmit={(e) => handleSubmit(e, false)} className="p-6 space-y-4">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div>
                   <label className="block text-sm font-medium text-navy-700 mb-1">Product Name *</label>
@@ -295,11 +308,17 @@ export default function AdminProducts() {
                 <span className="text-sm font-medium text-navy-700">Featured Product</span>
               </label>
 
-              <div className="flex gap-3 pt-4">
+              <div className="flex flex-col sm:flex-row gap-3 pt-4 border-t border-navy-100 mt-6">
                 <button type="submit" disabled={saving} className="btn-primary flex-1">
-                  {saving ? "Saving..." : editing ? "Update Product" : "Add Product"}
+                  {saving ? "Saving..." : editing ? "Update" : "Save"}
                 </button>
-                <button type="button" onClick={() => { setShowForm(false); setEditing(null); }} className="btn-outline">Cancel</button>
+                {!editing && (
+                  <button type="button" disabled={saving} onClick={(e) => handleSubmit(e, true)} className="btn-primary bg-primary-600 flex-1 relative overflow-hidden group">
+                    <span className="relative z-10">{saving ? "Saving..." : "Save & Add Another"}</span>
+                    <div className="absolute inset-0 bg-primary-700 w-0 group-hover:w-full transition-all duration-300 z-0"></div>
+                  </button>
+                )}
+                <button type="button" onClick={() => { setShowForm(false); setEditing(null); }} className="btn-outline flex-none">Cancel</button>
               </div>
             </form>
           </div>
